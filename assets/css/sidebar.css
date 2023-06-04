@@ -1,0 +1,99 @@
+.body-sidebar {
+    width: 200px;
+    position: relative;
+    display: block;
+    margin-right: 10px;
+    border: 1px solid;
+    border-color: #f2f2f2;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    padding-top: 10px;
+}
+
+.body-sidebar>.list-group>.list-group-item {
+    border-radius: 0px !important;
+}
+
+.body-sidebar>.list-group>.list-group-item {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+}
+
+.body-sidebar>.list-group>.list-group-item {
+    border: 0px !important;
+    padding: 20px;
+    cursor: pointer !important;
+}
+
+.body-sidebar>.list-group>.list-group-item>div>h5 {
+    color: #000;
+    font-size: 1.4rem;
+    text-decoration: none !important;
+    margin-bottom: 0px;
+}
+
+
+.body-sidebar>.list-group>.list-group-item>div>h5:hover {
+    color: #FA6F34 !important;
+}
+
+.body-sidebar>.list-group>.list-group-item.active{
+    background-color: transparent !important;
+}
+
+.body-sidebar>.list-group>.list-group-item.active>div>h5 {
+    color: #FA6F34 !important;
+}
+
+list-group-item list-group-item-action 
+
+.body-sidebar>.list-group>.list-group-item>.sidebar-dropdown:hover {
+    color: #FA6F34 !important;
+}
+
+.body-sidebar>.list-group>.list-group-item>.sidebar-dropdown>h5 {
+    width: 100%;
+}
+
+.body-sidebar>.list-group>.list-group-item>.sidebar-dropdown>h5:hover {
+    color: #FA6F34 !important;
+}
+
+.submenu.list-group>.list-group-item {
+    border: 0px;
+    border-radius: 0px !important;
+}
+
+.submenu.list-group>.list-group-item>div>p {
+    color: #000;
+    font-size: 1.3rem;
+    text-decoration: none !important;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.submenu.list-group>.list-group-item>div>p:hover {
+    color: #FA6F34 !important;
+}
+
+.sidebar-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Menu>li.dropdown.mobile-menu {
+    display: none;
+}
+
+
+@media (max-width:992px) {
+    .body-sidebar {
+        display: none;
+    }
+
+    #Menu>li.dropdown.mobile-menu {
+        display: block;
+    }
+}
